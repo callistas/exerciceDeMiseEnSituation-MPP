@@ -9,21 +9,24 @@ Je n’ai pas eu le temps de rendre les commits git « propres » et l’interfa
 
 # Ressources utilisées
 Voici la liste de ressources que j’ai utilisées pour effectuer cet exercice :
+
 Compréhension générale de Flutter : 
-•	https://www.geeksforgeeks.org/what-is-flutter/ 
-•	https://www.youtube.com/watch?v=LzLt865Jq4Y
+*	https://www.geeksforgeeks.org/what-is-flutter/ 
+*	https://www.youtube.com/watch?v=LzLt865Jq4Y
+
 Installation : 
-•	https://docs.flutter.dev/get-started/install/windows
-•	https://www.youtube.com/watch?v=EFs7uZWnG7s 
-•	https://fluttercorner.com/android-toolchain-develop-for-android-devices/ 
+* https://docs.flutter.dev/get-started/install/windows
+*	https://www.youtube.com/watch?v=EFs7uZWnG7s 
+*	https://fluttercorner.com/android-toolchain-develop-for-android-devices/ 
+
 Création de l’application et des boutons : 
-•	Thème : https://miary.dev/2019/06/28/flutter-custom-theme/
-•	Elevated buttons: https://api.flutter.dev/flutter/material/ElevatedButton-class.html 
-•	Choix des icones : https://www.fluttericon.com/
-•	Forme des boutons : https://www.kindacode.com/article/how-to-make-circular-buttons-in-flutter/
-•	Padding : https://api.flutter.dev/flutter/widgets/Padding-class.html
+*	Thème : https://miary.dev/2019/06/28/flutter-custom-theme/
+*	Elevated buttons: https://api.flutter.dev/flutter/material/ElevatedButton-class.html 
+*	Choix des icones : https://www.fluttericon.com/
+*	Forme des boutons : https://www.kindacode.com/article/how-to-make-circular-buttons-in-flutter/
+*	Padding : https://api.flutter.dev/flutter/widgets/Padding-class.html
 
 Création de la deuxième page : 
-•	Navigation entre les pages : https://www.geeksforgeeks.org/multi-page-applications-in-flutter/ 
+*	Navigation entre les pages : https://www.geeksforgeeks.org/multi-page-applications-in-flutter/ 
 
 
