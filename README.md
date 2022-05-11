@@ -1,3 +1,6 @@
+# Author
+Callista Spiteri - callista.spiteri@utt.fr
+
 # flutter_app
 
 A new Flutter application.
