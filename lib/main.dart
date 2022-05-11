@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(
+  runApp(MaterialApp( //application settings (default values)
     title: 'Exercice de mise en situation ',
-    initialRoute: '/',
+    initialRoute: '/', // initialisation of the routes (in order to change pages)
     routes: {
       '/': (context) =>HomeRoute(),
-      '/second': (context) => SecondRoute(),
-     // '/third': (context) => ThirdRoute(),
+      '/second': (context) => ContactPageRoute(),
     },
     theme: ThemeData(
       primarySwatch: Colors.lightBlue,
@@ -16,7 +15,7 @@ void main() {
 
 }
 
-class HomeRoute extends StatelessWidget {
+class HomeRoute extends StatelessWidget { // home page
 
   Widget build(BuildContext context) {
     return Scaffold(//home page
@@ -81,14 +80,14 @@ class HomeRoute extends StatelessWidget {
   }
 }
 
-class SecondRoute extends StatelessWidget {
+class ContactPageRoute extends StatelessWidget { // contact page
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text("Page contact"),
         actions: <Widget>[
-          IconButton(
+          IconButton( //buton on the right to come back
             icon: Icon(
               Icons.cancel,
               color: Colors.black,
@@ -99,7 +98,7 @@ class SecondRoute extends StatelessWidget {
           )
         ],
       ),
-      body: SingleChildScrollView(
+      body: SingleChildScrollView( //scrollable column
           child: Column(
            children: <Widget>[
              Padding(padding: EdgeInsets.all(20),
@@ -108,7 +107,7 @@ class SecondRoute extends StatelessWidget {
                      child: Padding(
                          padding: EdgeInsets.all(20),
                          child: Column(
-                             children: <Widget>[
+                             children: <Widget>[ //the information of the contact
                                Text('Callista Spiteri', style: TextStyle(fontSize: 18)),
                                Text('0674859302', style: TextStyle(fontSize: 14))
                              ]
@@ -234,5 +233,3 @@ class SecondRoute extends StatelessWidget {
     );
   }
 }
-
-//personnal access token: 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
