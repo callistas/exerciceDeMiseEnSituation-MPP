@@ -15,7 +15,8 @@ void main() {
 
 }
 
-class HomeRoute extends StatelessWidget { // home page
+
+class HomeRoute extends StatelessWidget {
 
   Widget build(BuildContext context) {
     return Scaffold(//home page
@@ -80,7 +81,8 @@ class HomeRoute extends StatelessWidget { // home page
   }
 }
 
-class ContactPageRoute extends StatelessWidget { // contact page
+
+class ContactPageRoute extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -233,3 +235,4 @@ class ContactPageRoute extends StatelessWidget { // contact page
     );
   }
 }
+
