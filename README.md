@@ -28,5 +28,9 @@ Création de l’application et des boutons :
 
 Création de la deuxième page : 
 *	Navigation entre les pages : https://www.geeksforgeeks.org/multi-page-applications-in-flutter/ 
+*	Bouton dans le appbar : https://stackoverflow.com/questions/57941227/how-to-add-icon-to-appbar-in-flutter
+*	Réalisation de Column : https://api.flutter.dev/flutter/widgets/Column-class.html
+*	Style text : https://www.tutorialkart.com/flutter/flutter-change-font-size-of-text-widget/
+
 
 
